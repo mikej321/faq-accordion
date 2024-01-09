@@ -20,6 +20,7 @@ function createCard() {
     
     const headerImg = new Image();
     headerImg.src = HeaderImg;
+    headerImg.alt = 'A star';
     header.append(headerImg);
 
     const headerTitle = document.createElement('h1');
