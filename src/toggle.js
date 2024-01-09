@@ -14,10 +14,12 @@ function toggleDescription() {
             if (!eventAcc.hasAttribute('open')) {
                 eventAcc.setAttribute('open', '');
                 accImg.src = MinusSign;
+                accImg.alt = 'A minus sign for collapsing the viewable text underneath';
                 eventAcc.style.maxHeight = eventAcc.scrollHeight + 'px';
             } else {
                 eventAcc.style.maxHeight = 0;
                 accImg.src = PlusSign;
+                accImg.alt = 'A plus sign for expanding the hidden text underneath';
                 eventAcc.removeAttribute('open', '');
             }
         })

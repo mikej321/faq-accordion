@@ -42,6 +42,7 @@ function createCard() {
 
     const accTitlePlus1 = new Image();
     accTitlePlus1.src = PlusSign;
+    accTitlePlus1.alt = 'A plus sign for expanding the hidden text underneath'
     accTitle1.append(accTitlePlus1);
 
     section1.append(accTitle1);
@@ -70,6 +71,7 @@ function createCard() {
 
     const accTitlePlus2 = new Image();
     accTitlePlus2.src = PlusSign;
+    accTitlePlus2.alt = 'A plus sign for expanding the hidden text underneath';
     accTitle2.append(accTitlePlus2);
 
     section2.append(accTitle2);
@@ -97,6 +99,7 @@ function createCard() {
 
     const accTitlePlus3 = new Image();
     accTitlePlus3.src = PlusSign;
+    accTitlePlus3.alt = 'A plus sign for expanding the hidden text underneath';
     accTitle3.append(accTitlePlus3);
 
     section3.append(accTitle3);
@@ -124,6 +127,7 @@ function createCard() {
 
     const accTitlePlus4 = new Image();
     accTitlePlus4.src = PlusSign;
+    accTitlePlus4.alt = 'A plus sign for expanding the hidden text underneath';
     accTitle4.append(accTitlePlus4);
 
     section4.append(accTitle4);
